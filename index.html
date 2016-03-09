@@ -332,7 +332,7 @@
                       </div>
                       <div class="col-md-4">
                           <p><strong>Phone: </strong>727.386.6899</p>
-                          <p><strong>Email: </strong><a href="mailto:name@example.com">info@all1group.com</a></p>
+                          <p><strong>Email: </strong><a href="mailto:info@all1group.com">info@all1group.com</a></p>
                           <p><strong>Address: </strong>5260 78th Ave N, Suite 2585<br>Pinellas Park, FL 33781</p>
                       </div>
                     </div>
@@ -340,7 +340,7 @@
                       <div class="col-md-12">
                           <hr />
                           <p>Please leave us a message if you want more info regarding our services or have any questions or suggestions.</p>
-                          <form role="form">
+                          <form role="form" action="MAILTO:info@all1group.com" method="post" enctype="text/plain">
                               <div class="row">
                                   <div class="form-group col-lg-4">
                                       <label>Name</label>
@@ -360,8 +360,8 @@
                                       <textarea class="form-control" rows="6"></textarea>
                                   </div>
                                   <div class="form-group col-lg-12">
-                                      <input type="hidden" name="save" value="contact">
-                                      <button type="submit" class="btn btn-default">Submit</button>
+                                      <input type="submit" class="btn btn-default" value="submit">
+                                      <input type="reset" class="btn btn-default" value="Reset">
                                   </div>
                               </div>
                           </form>
