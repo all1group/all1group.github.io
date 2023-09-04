@@ -64,7 +64,7 @@ hr {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #e3f2fd;
+    background-color: #8BD2F0;
 }
 
 .navbar-custom .navbar-brand {
@@ -78,7 +78,7 @@ hr {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #e3f2fd;
+    color: #8BD2F0;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -135,7 +135,7 @@ hr {
         height: 0;
         padding: 0 0 0 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #e3f2fd;
+        background: #8BD2F0;
     }
 }
 
