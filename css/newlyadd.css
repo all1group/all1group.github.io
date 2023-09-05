@@ -1,0 +1,28 @@
+/* newly add: Custom CSS */
+.tech-panel {
+  margin: 20px;
+}
+
+.tech-panel li {
+  margin: 10px 0;
+}
+
+.img-service {
+  margin-bottom: 10px;
+}
+
+.blog-panel p {
+  font-size: 1.0em;
+}
+
+.blog-panel hr {
+  max-width: inherit;
+}
+
+.img-panel {
+  margin-bottom: 20px;
+}
+
+.scroll-btn-panel {
+  text-align: center;
+}
