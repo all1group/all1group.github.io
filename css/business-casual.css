@@ -98,7 +98,7 @@ hr {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,.5);
     background-color: transparent;
 }
 
@@ -183,7 +183,7 @@ hr {
 
 .light {
     font-weight: 400;
-    vertical-align: middle;
+    vertical-align: middle; /*! ??? should be removed ?  no effect */
 }
 
 /*!
@@ -295,7 +295,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 200;
         letter-spacing: 3px;
-        color: #fff;
+        color: rgb(255,255,255);
     }
 
     .address-sub {
@@ -307,7 +307,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: rgb(255,255,255);
     }
 
     .navbar {
